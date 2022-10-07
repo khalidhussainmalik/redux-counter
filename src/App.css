@@ -1,0 +1,44 @@
+.App {
+    background-color: #041c32;
+    height: 100vh;
+    margin-top: -22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ecb365;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #04293a;
+    padding: 30px 60px;
+    border-radius: 5px;
+}
+
+.container p{
+    padding: 20px 80px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #064663;
+    color: #ecb365;
+    font-weight: bold;
+}
+
+.container button{
+    padding: 15px 40px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #064663;
+    color: #ecb365;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+}
+
+.container button:hover{
+    background: #074b6baf;
+    cursor: pointer;
+}

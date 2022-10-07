@@ -1,7 +1,11 @@
 export const incNumber = () => {
-  type: "INCREMENR";
+  return {
+    type: "INCREMENT"
+  }
 };
 
 export const decNumber = () => {
-  type: "DECREMENT";
+  return {
+    type: "DECREMENT"
+  }
 };
